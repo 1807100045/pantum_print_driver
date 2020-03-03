@@ -1,0 +1,165 @@
+;/*++
+;
+;Module Name:
+;
+;    ptusbews.inf
+;
+;--*/
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+Provider="Pantum"
+DriverVer=09/03/2015,1.1.1.2
+CatalogFile=ptusbews.cat
+
+
+; ================= Device section =====================
+
+[Manufacturer]
+%MFG%=Pantum,NTx86,NTamd64
+
+; For Win2K
+[Pantum]
+"P2500 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_0820&MI_01
+"P2500N USB EWS Device Driver"       = mvusbews.Dev,USB\VID_232B&PID_1820&MI_01
+"P2500W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2820&MI_01
+"P2500NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_3820&MI_01
+"P2600 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_0850&MI_01
+"P2600N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2850&MI_01
+"P2600NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_1850&MI_01
+"P2200 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_1810&MI_01
+"P2200W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2810&MI_01
+"P2200NW USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4810&MI_01
+
+"M6500 USB EWS Device Driver"       = mvusbews.Dev,USB\VID_232B&PID_0E20&MI_02
+"M6500N USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_1E20&MI_02
+"M6500W USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_7E20&MI_02
+"M6500NW USB EWS Device Driver"  = mvusbews.Dev,USB\VID_232B&PID_2E20&MI_02
+"M6200W USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_7E10&MI_02
+"M6550 USB EWS Device Driver"        = mvusbews.Dev,USB\VID_232B&PID_3E20&MI_02
+"M6550N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4E20&MI_02
+"M6550W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4E21&MI_02
+"M6550NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_5E20&MI_02
+"M6600 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_3F20&MI_03
+"M6600N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4F20&MI_03
+"M6600NW USB EWS Device Driver"  = mvusbews.Dev,USB\VID_232B&PID_5F20&MI_03
+"M6602W USB EWS Device Driver"    = mvusbews.Dev,USB\VID_232B&PID_5F21&MI_03
+
+; For x86 XP and later
+[Pantum.NTx86]
+"P2500 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_0820&MI_01
+"P2500N USB EWS Device Driver"       = mvusbews.Dev,USB\VID_232B&PID_1820&MI_01
+"P2500W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2820&MI_01
+"P2500NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_3820&MI_01
+"P2600 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_0850&MI_01
+"P2600N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2850&MI_01
+"P2600NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_1850&MI_01
+"P2200 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_1810&MI_01
+"P2200W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2810&MI_01
+"P2200NW USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4810&MI_01
+
+"M6500 USB EWS Device Driver"       = mvusbews.Dev,USB\VID_232B&PID_0E20&MI_02
+"M6500N USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_1E20&MI_02
+"M6500W USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_7E20&MI_02
+"M6500NW USB EWS Device Driver"  = mvusbews.Dev,USB\VID_232B&PID_2E20&MI_02
+"M6200W USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_7E10&MI_02
+"M6550 USB EWS Device Driver"        = mvusbews.Dev,USB\VID_232B&PID_3E20&MI_02
+"M6550N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4E20&MI_02
+"M6550W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4E21&MI_02
+"M6550NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_5E20&MI_02
+"M6600 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_3F20&MI_03
+"M6600N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4F20&MI_03
+"M6600NW USB EWS Device Driver"  = mvusbews.Dev,USB\VID_232B&PID_5F20&MI_03
+"M6602W USB EWS Device Driver"    = mvusbews.Dev,USB\VID_232B&PID_5F21&MI_03
+
+
+
+; For x64 XP and later
+[Pantum.NTamd64]
+"P2500 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_0820&MI_01
+"P2500N USB EWS Device Driver"       = mvusbews.Dev,USB\VID_232B&PID_1820&MI_01
+"P2500W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2820&MI_01
+"P2500NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_3820&MI_01
+"P2600 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_0850&MI_01
+"P2600N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2850&MI_01
+"P2600NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_1850&MI_01
+"P2200 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_1810&MI_01
+"P2200W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_2810&MI_01
+"P2200NW USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4810&MI_01
+
+"M6500 USB EWS Device Driver"       = mvusbews.Dev,USB\VID_232B&PID_0E20&MI_02
+"M6500N USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_1E20&MI_02
+"M6500W USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_7E20&MI_02
+"M6500NW USB EWS Device Driver"  = mvusbews.Dev,USB\VID_232B&PID_2E20&MI_02
+"M6200W USB EWS Device Driver"     = mvusbews.Dev,USB\VID_232B&PID_7E10&MI_02
+"M6550 USB EWS Device Driver"        = mvusbews.Dev,USB\VID_232B&PID_3E20&MI_02
+"M6550N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4E20&MI_02
+"M6550W USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4E21&MI_02
+"M6550NW USB EWS Device Driver"   = mvusbews.Dev,USB\VID_232B&PID_5E20&MI_02
+"M6600 USB EWS Device Driver"         = mvusbews.Dev,USB\VID_232B&PID_3F20&MI_03
+"M6600N USB EWS Device Driver"      = mvusbews.Dev,USB\VID_232B&PID_4F20&MI_03
+"M6600NW USB EWS Device Driver"  = mvusbews.Dev,USB\VID_232B&PID_5F20&MI_03
+"M6602W USB EWS Device Driver"    = mvusbews.Dev,USB\VID_232B&PID_5F21&MI_03
+
+
+[mvusbews.Dev.NT]
+CopyFiles=mvusbews.Files.Ext
+
+
+[mvusbews.Dev.NT.Services]
+Addservice = mvusbews, %SPSVCINST_ASSOCSERVICE%, mvusbews.AddService
+
+[mvusbews.AddService]
+DisplayName    = %mvusbews.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\ptusbews.sys
+LoadOrderGroup = Base
+
+[mvusbews.Files.Ext]
+ptusbews.sys
+
+[SourceDisksNames.x86]
+1=%Disk_Description%,,,x32
+
+[SourceDisksNames.amd64]
+1=%Disk_Description%,,,x64
+
+[SourceDisksFiles]
+ptusbews.sys = 1
+WdfCoInstaller01009.dll=1
+
+[DestinationDirs]
+CoInstaller_CopyFiles = 11
+DefaultDestDir = 12
+
+;-------------- WDF Coinstaller installation
+
+[mvusbews.Dev.NT.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+[CoInstaller_CopyFiles]
+WdfCoInstaller01009.dll
+
+
+
+[CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller01009.dll,WdfCoInstaller"
+
+[mvusbews.Dev.NT.Wdf]
+KmdfService = mvusbews, mvusbews_wdfsect
+[mvusbews_wdfsect]
+KmdfLibraryVersion = 1.9
+
+;---------------------------------------------------------------;
+
+[Strings]
+MFG="Pantum"
+MfgName="mvusbews"
+Disk_Description="USB EWS Device Driver Installation Disk"
+mvusbews.SvcDesc="USB EWS Device"
+SPSVCINST_ASSOCSERVICE= 0x00000002

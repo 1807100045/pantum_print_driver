@@ -1,0 +1,32 @@
+; pt2100tcpmon.inf
+;
+; Installation inf for Pantum TCP/IP port monitor
+;
+; (c) Copyright 2013 Pantum
+;
+
+
+[Version]
+Signature="$Windows NT$"
+Provider=%PMProducer%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+
+[PortMonitors]
+"Pantum TCP/IP Port Monitor" = tcpportmon
+
+[tcpportmon]
+CopyFiles=@pt2500tcpmon.dll, @pt2500tcpui.dll
+PortMonitorDll=pt2500tcpmon.dll
+
+[SourceDisksFiles]
+pt2500tcpmon.dll=1,,
+pt2500tcpui.dll=1,,
+
+[SourceDisksNames]
+1="Pantum TCP/IP Port Monitor Installation Disk",,,
+
+[Strings]
+PMProducer="Pantum"
+
+

@@ -1,0 +1,331 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>jQuery treeview</title>
+    <link rel="stylesheet" href="static/css/jquery.treeview.css"/>
+    <link rel="stylesheet" href="static/css/red-treeview.css"/>
+    <link rel="stylesheet" href="static/css/screen.css"/>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/jquery.cookie.js"></script>
+<script src="static/js/jquery.treeview.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    window.menuStr = 'menus';
+    $("#browser").treeview({
+      toggle: function() {
+        console.log("%s was toggled.", $(this).find(">span").text());
+      }
+    });
+
+    $("#add").click(function() {
+      var branches = $("<li><span class='folder'>New Sublist</span><ul>" +
+        "<li><span class='file'>Item1</span></li>" +
+        "<li><span class='file'>Item2</span></li></ul></li>").appendTo("#browser");
+      $("#browser").treeview({
+add: branches
+});
+      });
+    });
+</script>
+  </head>
+  <body>
+    <div id="main">
+        <ul id="browser" class="filetree treeview-famfamfam">
+            <li class="closed">
+              <span class="folder">
+                <a href="data/0_front.html#itemFront_1" target="content" id="itemFront_1">Önsöz</a>              </span>            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/0_front.html#itemFront_2" target="content" id="itemFront_2">Yasal Bildirim</a>              </span>              </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/0_front.html#itemFront_3" target="content" id="itemFront_3">Güvenlik Önlemleri</a>              </span>            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/0_front.html#itemFront_4" target="content" id="itemFront_4">Önlemler</a>              </span>            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/0_front.html#itemFront_5" target="content" id="itemFront_5">Düzenleyici Bilgi</a>              </span>            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/1.html#item01" target="content" id="item01">1. Yazıcıyı Kullanmadan Önce</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/1.html#item01_1" target="content" id="item01_1">1.1. Paket Listesi</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/1.html#item01_2" target="content" id="item01_2">1.2. Yazıcı Bileşenleri</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/1.html#item01_3" target="content" id="item01_3">1.3. Lazer Toner Kartuşu</a>                  </span>                </li>
+              </ul>
+            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/2.html#item02" target="content" id="item02">2. Kağıt ve Yazıcı Medyası</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/2.html#item02_1" target="content" id="item02_1">2.1. Kağıt Özellikleri</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/2.html#item02_2" target="content" id="item02_2">2.2. Özel Kağıt</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/2.html#item02_3" target="content" id="item02_3">2.3. Kağıt Yerleştirme</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/2.html#item02_3_1" target="content" id="item02_3_1">2.3.1. Otomatik Besleme Tepsisine Yerleştirme</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/2.html#item02_3_2" target="content" id="item02_3_2">2.3.2. Manuel Besleme Tepsisine Yerleştirme</a>                    </span>                  </li>
+                  </ul>
+                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/2.html#item02_4" target="content" id="item02_4">2.4. Yazdırma Dışı Alan</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/2.html#item02_5" target="content" id="item02_5">2.5. Kağıt Kullanımı Yönergeleri</a>                  </span>                </li>
+              </ul>
+            </li>
+            <li class="closed"><span class="folder"><a href="data/3.html#item03" target="content" id="item03">3.Sürücü yükleme ve kaldırma</a></span><ul><li class="closed"><span class="file"><a href="data/3.html#item03_1" target="content" id="item03_1">3.1.<span class="title-2">Windows yazıcı sürücüsü nasıl kurulur</span></a>                  </span><ul id="folder21">
+                    <li><span class="file"><a href="data/3.html#item03_1_1" target="content" id="item03_1_1">3.1.1.<span class="title-3">Tek Tıklamayla Kurulum</span></a></span></li>
+                    <li><span class="file"><a href="data/3.html#item03_1_2" target="content" id="item03_1_2">3.1.2.<span class="title-3">Manuel kurulum</span></a>                    </span>                  </li>
+					<li><span class="file"><a href="data/3.html#item03_1_3" target="content" id="item03_1_3">3.1.3.<span class="title-3">Sürücüyü kaldırma yöntemi</span></a>                    </span>                  </li>
+                  </ul>
+                </li>
+                <li class="closed"><span class="file"><a href="data/3.html#item03_2" target="content" id="item03_2">3.2.Mac sistemi sürücü kurulumu</a> </span><ul id="folder21">
+                    <li> <span class="file"> <a href="data/3.html#item03_2_1" target="content" id="item03_2_1">3.2.1.Sürücü Kurulumu</a></span></li>
+				  </ul>
+                </li>
+                <li class="closed"><span class="file"><a href="data/3.html#item03_3" target="content" id="item03_3">3.3.<span class="title-2">Mac Sistem Yazıcı Eklemek</span></a></span><ul id="folder21">
+                    <li> <span class="file"> <a href="data/3.html#item03_3_1" target="content" id="item03_3_1">3.3.1.<span class="title-3">Yazıcıyı USB ile ekleyin</span></a> </span></li>
+                    <li><span class="file"> <a href="data/3.html#item03_3_2" target="content" id="item03_3_2">3.3.2.<span class="title-3">Yazıcıyı kablolu bağlantı ile ekleyin</span></a></span></li>
+                    <li><span class="file"> <a href="data/3.html#item03_3_3" target="content" id="item03_3_3">3.3.3.<span class="title-3">Yazıcıyı kablosuz bağlantı ile ekleyin</span></a></span></li>                  </ul>
+</li>
+              </ul>
+          </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/4.html#item04" target="content" id="item04">4. Kablolu Ağ Ayarları (Kablolu ağ yazıcı modelleri için)</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/4.html#item04_1" target="content" id="item04_1">4.1. IP Adresini Ayarlama</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/4.html#item04_2" target="content" id="item04_2">4.2. Yazıcıyı Ağa Kurma</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/4.html#item04_3" target="content" id="item04_3">4.3. Ağ Ürünlerini Ayarlama</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/4.html#item04_3_1" target="content" id="item04_3_1">4.3.1. Ağ Ayarlarını Görüntüleme ya da Değiştirme</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/4.html#item04_3_2" target="content" id="item04_3_2">4.3.2. Web Sunucusu Oturum Açma Şifresi Oluşturma veya Değiştirme</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/4.html#item04_3_3" target="content" id="item04_3_3">4.3.3. Fabrika Ayarlarına Sıfırla</a>                    </span>                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+           <li class="closed"> <span class="folder"> <a href="data/5.html#item05" target="content" id="item05">5.<span class="title-1">(Wi-Fi modeli i&ccedil;in) Kablosuz ağ ayarları</span></a> </span><ul>
+                <li class="closed"><span class="file"><a href="data/5.html#item05_1" target="content" id="item05_1">5.1.<span class="title-2">Altyapı Modu</span></a></span><ul id="folder21">
+                    <li><span class="file"><a href="data/5.html#item05_1_1" target="content" id="item05_1_1">5.1.1.<span class="title-3">Kablosuz ağ yapılandırma aracı</span></a></span></li>
+                    <li><span class="file"><a href="data/5.html#item05_1_2" target="content" id="item05_1_2">5.1.2.<span class="title-3">Wi-Fi Protected Setup (WPS) yapılandırma</span></a></span></li>
+					<li><span class="file"><a href="data/5.html#item05_1_3" target="content" id="item05_1_3">5.1.3.<span class="title-3">Bağlanan Wi-Fi ağı nasıl kapatılır</span></a></span></li>
+                  </ul>
+                </li>
+                <li class="closed"> <span class="file"> <a href="data/5.html#item05_2" target="content" id="item05_2">5.2.<span class="title-2">Wi-Fi hot-spot modu</span></a></span><ul id="folder21">
+                    <li><span class="file"><a href="data/5.html#item05_2_1" target="content" id="item05_2_1">5.2.1.<span class="title-3">&Ouml;n hazırlık</span></a></span></li>
+                    <li><span class="file"> <a href="data/5.html#item05_2_2" target="content" id="item05_2_2">5.2.2.<span class="title-3">Wi-Fi Hotspot Bağlantısı</span></a> </span></li>
+                    <li><span class="file"> <a href="data/5.html#item05_2_3" target="content" id="item05_2_3">5.2.3.Wi-Fi Erişim Noktası Yapılandırması</a> </span></li>
+                  </ul>
+                </li>
+                <li class="closed"><span class="file"> <a href="data/5.html#item05_3" target="content" id="item05_3">5.3.<span class="title-2">Genellikle karşılaşılan kablosuz ağ kurulumu sorunları</span></a></span></li>
+              </ul>
+            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/6.html#item06" target="content" id="item06">6. Pantum Mobil Yazdırma</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/6.html#item06_1" target="content" id="item06_1">6.1. Pantum Mobile Yazdırma Nedir?</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/6.html#item06_2" target="content" id="item06_2">6.2. Pantum Mobil Yazdırma Uygulamasını İndirme</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/6.html#item06_3" target="content" id="item06_3">6.3. Desteklenen Mobil İşletim Sistemi</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/6.html#item06_4" target="content" id="item06_4">6.4. Mobil yazdırma için mobil cihazları kullanma</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/6.html#item06_4_1" target="content" id="item06_4_1">6.4.1. Android Aygıtlar i&ccedil;in</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/6.html#item06_4_1_1" target="content" id="item06_4_1_1">6.4.1.1 &Ouml;n hazırlık</a>                    </span>                  </li>
+				 <li>  
+					  <span class="file">
+                      <a href="data/6.html#item06_4_1_2" target="content" id="item06_4_1_2">6.4.1.2 İşlem Prosed&uuml;r&uuml;</a>                    </span>
+                  </ul>
+				  
+			    </li>
+              </ul>
+            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/7.html#item07" target="content" id="item07">7. Yazdırma</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/7.html#item07_1" target="content" id="item07_1">7.1. Yazdırma İşlevi</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/7.html#item07_2" target="content" id="item07_2">7.2. Yardım Belgesini Açma</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/7.html#item07_3" target="content" id="item07_3">7.3. Elle Çift Yönlü</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/7.html#item07_4" target="content" id="item07_4">7.4. Yazdırma Görevini İptal Etme</a>                  </span>                </li>
+              </ul>
+            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/8.html#item08" target="content" id="item08">8. Kontrol Paneli</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/8.html#item08_1" target="content" id="item08_1">8.1. P2200/P2500 Series Kontrol Paneli Genel Görünümü</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/8.html#item08_1_1" target="content" id="item08_1_1">8.1.1. Kontrol Panelindeki Düğmelerin İşlevleri </a>                    </span>
+                    <ul id="folder21">
+                    <li>
+                      <span class="file">
+                        <a href="data/8.html#item08_1_1_1" target="content" id="item08_1_1_1">8.1.1.1. Wi-Fi Arama Düğmesinin Çalışma İşlevi </a>                      </span>                    </li>
+                    <li>
+                      <span class="file">
+                        <a href="data/8.html#item08_1_1_2" target="content" id="item08_1_1_2">8.1.1.2. İptal/Devam Düğmesinin Çalışma İşlevi</a>                      </span>                    </li>
+                    <li>
+                      <span class="file">
+                        <a href="data/8.html#item08_1_1_3" target="content" id="item08_1_1_3">8.1.1.3. Bilgi Düğmesinin Çalışma İşlevi</a>                      </span>                    </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/8.html#item08_1_2" target="content" id="item08_1_2">8.1.2. Kontrol Panelindeki LED Göstergelerin İşlevi</a>                    </span>
+                    <ul id="folder21">
+                    <li>
+                      <span class="file">
+                        <a href="data/8.html#item08_1_2_1" target="content" id="item08_1_2_1">8.1.2.1. LED1 Durum Göstergesi</a>                      </span>                    </li>
+                    <li>
+                      <span class="file">
+                        <a href="data/8.html#item08_1_2_2" target="content" id="item08_1_2_2">8.1.2.2. LED2 Durum Göstergesi</a>                      </span>                    </li>
+                    <li>
+                      <span class="file">
+                        <a href="data/8.html#item08_1_2_3" target="content" id="item08_1_2_3">8.1.2.3. LED1 ve LED2 Birleşim Durumu Göstergesi </a>                      </span>                    </li>
+                    </ul>
+                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/9.html#item09" target="content" id="item09">9. Rutin Bakım</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/9.html#item09_1" target="content" id="item09_1">9.1. Yazıcıyı Temizleme</a>                  </span>                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/9.html#item09_2" target="content" id="item09_2">9.2. Lazer Toner Kartuşu Bakımı</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/9.html#item09_2_1" target="content" id="item09_2_1">9.2.1. Lazer Toner Kartuşu Kullanımı ve Bakımı</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/9.html#item09_2_2" target="content" id="item09_2_2">9.2.2. Lazer Toner Kartuşu Hizmet Ömrü</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/9.html#item09_2_3" target="content" id="item09_2_3">9.2.3. Lazer Toner Kartuşunu Değiştirme</a>                    </span>                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/10.html#item10" target="content" id="item10">10. Sorun Giderme </a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/10.html#item10_1" target="content" id="item10_1">10.1. Sıkışan Kağıdı Çıkarma </a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/10.html#item10_1_1" target="content" id="item10_1_1">10.1.1. Besleme Portunda Kağıt Sıkışması</a>                    </span>                  </li>
+                  </ul>
+                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/10.html#item10_2" target="content" id="item10_2">10.2. Yaygın Sorunları Giderme</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/10.html#item10_2_1" target="content" id="item10_2_1">10.2.1. Yaygın Sorun</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/10.html#item10_2_2" target="content" id="item10_2_2">10.2.2. Görüntü Kusurları </a>                    </span>                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="closed">
+              <span class="folder">
+                <a href="data/11.html#item11" target="content" id="item11">11. Ürün Özellikleri</a>              </span>
+              <ul>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/11.html#item11_1" target="content" id="item11_1">11.1. P2200/P2500 Series Özellikleri</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/11.html#item11_1_1" target="content" id="item11_1_1">11.1.1. Özellik Genel Görünümü</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/11.html#item11_1_2" target="content" id="item11_1_2">11.1.2. Yazdırma Özellikleri</a>                    </span>                  </li>
+                  </ul>
+                </li>
+                <li class="closed">
+                  <span class="file">
+                    <a href="data/11.html#item11_2" target="content" id="item11_2">11.2. P2600 Series Özellikleri</a>                  </span>
+                  <ul id="folder21">
+                  <li>
+                    <span class="file">
+                      <a href="data/11.html#item11_2_1" target="content" id="item11_2_1">11.2.1. Özellik Genel Görünümü</a>                    </span>                  </li>
+                  <li>
+                    <span class="file">
+                      <a href="data/11.html#item11_2_2" target="content" id="item11_2_2">11.2.2. Yazdırma Özellikleri</a>                    </span>                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+        </ul>
+  </div>
+  </body>
+
+
+</html>

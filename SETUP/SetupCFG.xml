@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+  <SERTUP_INFO>
+    <MODEL>
+      <Model_Info  type="1">Pantum P2500 Series</Model_Info>
+      <Model_Info  type="2">Pantum P2500N Series</Model_Info>
+      <Model_Info  type="4">Pantum P2500W Series</Model_Info>
+      <Model_Info  type="3">Pantum P2500NW Series</Model_Info>
+      <!--<Model_Info  type="1">Pantum P2550 Series</Model_Info>
+      <Model_Info  type="2">Pantum P2550N Series</Model_Info>-->
+      <Model_Info  type="1">Pantum P2600 Series</Model_Info>
+      <Model_Info  type="2">Pantum P2600N Series</Model_Info>
+      <Model_Info  type="3">Pantum P2600NW Series</Model_Info>
+      <Model_Info  type="1">Pantum P2200 Series</Model_Info>
+      <Model_Info  type="4">Pantum P2200W Series</Model_Info>
+      <Model_Info  type="1">Pantum S2000 Series</Model_Info>
+      <Model_Info  type="3">Pantum P2200NW Series</Model_Info>
+    </MODEL>
+    
+    <PriName>
+      <PriModel  ID="Pantum P2500 Series">Pantum P2500 Series</PriModel>
+      <PriModel  ID="Pantum P2500N Series">Pantum P2500N Series</PriModel>
+      <PriModel  ID="Pantum P2500W Series">Pantum P2500W Series</PriModel>
+      <PriModel  ID="Pantum P2500NW Series">Pantum P2500NW Series</PriModel>
+      <PriModel  ID="Pantum P2600 Series">Pantum P2600 Series</PriModel>
+      <PriModel  ID="Pantum P2600N Series">Pantum P2600N Series</PriModel>
+      <PriModel  ID="Pantum P2600NW Series">Pantum P2600NW Series</PriModel>
+      <PriModel  ID="Pantum P2200 Series">Pantum P2200 Series</PriModel>
+      <PriModel  ID="Pantum P2200W Series">Pantum P2200W Series</PriModel>
+      <PriModel  ID="Pantum S2000 Series">Pantum S2000 Series</PriModel>
+      <PriModel  ID="Pantum P2200NW Series">Pantum P2200NW Series</PriModel>
+    </PriName>
+
+    <NETMDL>
+      <MDL ID="Pantum P2500N Series">P2500N series</MDL>
+      <MDL ID="Pantum P2500W Series">P2500W series</MDL>
+      <MDL ID="Pantum P2500NW Series">P2500NW series</MDL>
+      <MDL ID="Pantum P2600N Series">P2600N series</MDL>
+      <MDL ID="Pantum P2600NW Series">P2600NW series</MDL>
+      <MDL ID="Pantum P2200W Series">P2200W series</MDL>
+      <MDL ID="Pantum P2200NW Series">P2200NW series</MDL>
+    </NETMDL>
+
+    <Headingline>
+      <Content>Pantum P2200-P2500-P2600-S2000 Series</Content>
+    </Headingline>
+
+    <MultiFunc>
+      <Type>0</Type>
+    </MultiFunc>
+
+    <NETPLATFORM>
+      <Nettype>2</Nettype>
+      <!--1: PCLorGDI, 2:Mormfp ,-->
+    </NETPLATFORM>
+    
+    <USB>
+        <USB_Info ID="Pantum P2500 Series">USB\VID_232b&amp;PID_0820</USB_Info>
+        <USB_Info ID="Pantum P2500N Series">USB\VID_232b&amp;PID_1820</USB_Info>
+        <USB_Info ID="Pantum P2500W Series">USB\VID_232b&amp;PID_2820</USB_Info>
+        <USB_Info ID="Pantum P2500NW Series">USB\VID_232b&amp;PID_3820</USB_Info>
+        <USB_Info ID="Pantum P2600 Series">USB\VID_232b&amp;PID_0850</USB_Info>
+        <USB_Info ID="Pantum P2600N Series">USB\VID_232b&amp;PID_2850</USB_Info>
+        <USB_Info ID="Pantum P2600NW Series">USB\VID_232b&amp;PID_1850</USB_Info>
+        <USB_Info ID="Pantum P2200 Series">USB\VID_232b&amp;PID_1810</USB_Info>
+        <USB_Info ID="Pantum P2200W Series">USB\VID_232b&amp;PID_2810</USB_Info>
+        <USB_Info ID="Pantum S2000 Series">USB\VID_232b&amp;PID_0ED7</USB_Info>
+        <USB_Info ID="Pantum P2200NW Series">USB\VID_232b&amp;PID_4810</USB_Info>
+
+    </USB>
+    
+    <Hardware>
+        <Hardware_Info ID="Pantum P2500 Series">USBPRINT\PantumP2500_series36e2</Hardware_Info>
+        <Hardware_Info ID="Pantum P2500N Series">USBPRINT\PantumP2500n_seriesbfd4</Hardware_Info>
+        <Hardware_Info ID="Pantum P2500W Series">USBPRINT\PantumP2500w_series196c</Hardware_Info>
+        <Hardware_Info ID="Pantum P2500NW Series">USBPRINT\PantumP2500nw_series2dc5</Hardware_Info>
+        <Hardware_Info ID="Pantum P2600 Series">USBPRINT\PantumP2600_series3912</Hardware_Info>
+        <Hardware_Info ID="Pantum P2600N Series">USBPRINT\PantumP2600n_seriesfbdb</Hardware_Info>
+        <Hardware_Info ID="Pantum P2600NW Series">USBPRINT\PantumP2600nw_seriese960</Hardware_Info>
+        <Hardware_Info ID="Pantum P2200 Series">USBPRINT\PantumP2200_series2cf2</Hardware_Info>
+        <Hardware_Info ID="Pantum P2200W Series">USBPRINT\PantumP2200w_series6d76</Hardware_Info>
+        <Hardware_Info ID="Pantum S2000 Series">USBPRINT\PantumS2000_seriesE2D5</Hardware_Info>
+        <Hardware_Info ID="Pantum P2200NW Series">USBPRINT\PantumP2200NW_series2691</Hardware_Info>
+    </Hardware>
+
+    <EWSHID>
+      <EWSHIDINFO ID="Pantum P2500 Series">USB\VID_232b&amp;PID_0820&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2500N Series">USB\VID_232b&amp;PID_1820&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2500W Series">USB\VID_232b&amp;PID_2820&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2500NW Series">USB\VID_232b&amp;PID_3820&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2600 Series">USB\VID_232b&amp;PID_0850&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2600N Series">USB\VID_232b&amp;PID_2850&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2600NW Series">USB\VID_232b&amp;PID_1850&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2200 Series">USB\VID_232b&amp;PID_1810&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2200W Series">USB\VID_232b&amp;PID_2810&amp;MI_01</EWSHIDINFO>
+      <EWSHIDINFO ID="Pantum P2200NW Series">USB\VID_232b&amp;PID_4810&amp;MI_01</EWSHIDINFO>
+    </EWSHID>
+
+    
+    <InfInfo>
+        <Inf_Data ID="Pantum P2500 Series">PT2500,USBPRINT\PantumP2500_series36E2</Inf_Data>
+        <Inf_Data ID="Pantum P2500N Series">PT2500,USBPRINT\PantumP2500N_seriesBFD4</Inf_Data>
+        <Inf_Data ID="Pantum P2500W Series">PT2500,USBPRINT\PantumP2500W_series196C</Inf_Data>
+        <Inf_Data ID="Pantum P2500NW Series">PT2500,USBPRINT\PantumP2500NW_series2dc5</Inf_Data>
+        <Inf_Data ID="Pantum P2600 Series">PT2600,USBPRINT\PantumP2600_series3912</Inf_Data>
+        <Inf_Data ID="Pantum P2600N Series">PT2600,USBPRINT\PantumP2600n_seriesFBDB</Inf_Data>
+        <Inf_Data ID="Pantum P2600NW Series">PT2600,USBPRINT\PantumP2600nw_seriesE960</Inf_Data>
+        <Inf_Data ID="Pantum P2200 Series">PT2200,USBPRINT\PantumP2200_series2CF2</Inf_Data>
+        <Inf_Data ID="Pantum P2200W Series">PT2200,USBPRINT\PantumP2200w_series6d76</Inf_Data>
+        <Inf_Data ID="Pantum S2000 Series">PT2200,USBPRINT\PantumS2000_seriesE2D5</Inf_Data>
+        <Inf_Data ID="Pantum P2200NW Series">PT2500,USBPRINT\PantumP2200NW_series2691</Inf_Data>
+
+    </InfInfo>
+
+    <ScannerHID>
+      <!--<ScannerInfo ID="Pantum M6500 Series">USB\VID_232B&amp;PID_0E20&amp;MI_01</ScannerInfo>
+      <ScannerInfo ID="Pantum M6500N Series">USB\VID_232B&amp;PID_1E20&amp;MI_01</ScannerInfo>
+      <ScannerInfo ID="Pantum M6500NW Series">USB\VID_232B&amp;PID_2E20&amp;MI_01</ScannerInfo>
+      <ScannerInfo ID="Pantum M6200W Series">USB\VID_232B&amp;PID_7E10&amp;MI_01</ScannerInfo>
+      <ScannerInfo ID="Pantum M6500W Series">USB\VID_232B&amp;PID_7E20&amp;MI_01</ScannerInfo>-->
+    </ScannerHID>
+    
+    <!--update fax-->
+    <FaxHID>
+      <!--<FaxInfo ID="Pantum M6600 Series">USBPRINT\PantumM6600_series_F48A2</FaxInfo>
+      <FaxInfo ID="Pantum M6600N Series">USBPRINT\PantumM6600N_series_450A</FaxInfo>
+      <FaxInfo ID="Pantum M6600NW Series">USBPRINT\PantumM6600NW_seriesF8D8</FaxInfo>-->
+    </FaxHID>
+
+    <FaxName>
+      <!--<FaxModel ID="Pantum M6600 Series">Pantum M6600 Series Fax</FaxModel>
+      <FaxModel ID="Pantum M6600N Series">Pantum M6600N Series Fax</FaxModel>
+      <FaxModel ID="Pantum M6600NW Series">Pantum M6600NW Series Fax</FaxModel>-->
+    </FaxName>
+
+    <ScannerOem>
+       <!--<oem_data ID="%SCANNER.WIA1.0.DeviceDesc%">SCANNER.WIA1.0DRIVER.ntx86,%M6500_VIDPID%</oem_data>
+      <oem_data ID="%SCANNER.WIA1.0.DeviceDesc%">SCANNER.WIA1.0DRIVER.ntx86,%M6500N_VIDPID%</oem_data>
+      <oem_data ID="%SCANNER.WIA1.0.DeviceDesc%">SCANNER.WIA1.0DRIVER.ntx86,%M6500NW_VIDPID%</oem_data>
+      <oem_data ID="%SCANNER.WIA1.0.DeviceDesc%">SCANNER.WIA1.0DRIVER.ntx86,%M6500W_VIDPID%</oem_data>
+      <oem_data ID="%SCANNER.WIA1.0.DeviceDesc%">SCANNER.WIA1.0DRIVER.ntx86,%M6200W_VIDPID%</oem_data>-->
+    </ScannerOem>
+
+    <SCANNERMENT>
+       <!--<Element ID="Pantum M6500 Series">Pantum M6500 Series Scanner</Element>
+      <Element ID="Pantum M6500N Series">Pantum M6500N Series Scanner</Element>
+      <Element ID="Pantum M6500NW Series">Pantum M6500NW Series Scanner</Element>
+      <Element ID="Pantum M6200W Series">Pantum M6200W Series Scanner</Element>
+      <Element ID="Pantum M6500W Series">Pantum M6500W Series Scanner</Element>-->
+    </SCANNERMENT>
+    
+    <CALLWIFI>
+      <CallInfo>Pantum P2200-P2500-P2600-S2000 Series</CallInfo>
+    </CALLWIFI>
+    
+    <DEVICEFLAG>
+      <Flag ID="Pantum P2500 Series">USBPRINT\PantummP2500_series</Flag>
+      <Flag ID="Pantum P2500N Series">USBPRINT\PantumP2500n_series</Flag>
+      <Flag ID="Pantum P2500W Series">USBPRINT\PantumP2500w_series</Flag>
+      <Flag ID="Pantum P2500NW Series">USBPRINT\PantumP2500nw_series</Flag>
+      <Flag ID="Pantum P2600 Series">USBPRINT\PantumP2600_series</Flag>
+      <Flag ID="Pantum P2600N Series">USBPRINT\PantumP2600n_series</Flag>
+      <Flag ID="Pantum P2600NW Series">USBPRINT\PantumP2600nw_series</Flag>
+      <Flag ID="Pantum P2200 Series">USBPRINT\PantumP2200_series</Flag>
+      <Flag ID="Pantum P2200W Series">USBPRINT\PantumP2200w_series</Flag>
+      <Flag ID="Pantum S2000 Series">USBPRINT\PantumS2000_series</Flag>
+      <Flag ID="Pantum P2200NW Series">USBPRINT\PantumP2200NW_series</Flag>
+
+    </DEVICEFLAG>
+    
+    <STOREXP>
+      <Store_Info ID="Pantum P2500 Series">\PantumP2500_series36e2</Store_Info>
+      <Store_Info ID="Pantum P2500N Series">\PantumP2500n_seriesbfd4</Store_Info>
+      <Store_Info ID="Pantum P2500W Series">\PantumP2500w_series196c</Store_Info>
+      <Store_Info ID="Pantum P2500NW Series">\PantumP2500nw_series2dc5</Store_Info>
+      <Store_Info ID="Pantum P2600 Series">\PantumP2600_series3912</Store_Info>
+      <Store_Info ID="Pantum P2600N Series">\PantumP2600n_seriesfbdb</Store_Info>
+      <Store_Info ID="Pantum P2600NW Series">\PantumP2600nw_seriese960</Store_Info>
+      <Store_Info ID="Pantum P2200 Series">\PantumP2200_series2cf2</Store_Info>
+      <Store_Info ID="Pantum P2200W Series">\PantumP2200w_series6d76</Store_Info>
+      <Store_Info ID="Pantum S2000 Series">\PantumS2000_seriesE2D5</Store_Info>
+      <Store_Info ID="Pantum P2200NW Series">\PantumP2200NW_series2691</Store_Info>
+
+    </STOREXP>
+
+    <PRTCHMFILE>
+      <source_chm ID="Simplified_Chinese">\PRINTER\pt2500zhcn.chm</source_chm>
+      <source_chm ID="Traditional_Chinese">\PRINTER\pt2500zhtw.chm</source_chm>
+      <source_chm ID="English">\PRINTER\pt2500enus.chm</source_chm>
+      <source_chm ID="Russian">\PRINTER\pt2500ru.chm</source_chm>
+      <source_chm ID="Japanese">\PRINTER\pt2500ja.chm</source_chm>
+      <source_chm ID="Arabic">\PRINTER\pt2500ar.chm</source_chm>
+      <source_chm ID="French">\PRINTER\pt2500fr.chm</source_chm>
+      <source_chm ID="Italian">\PRINTER\pt2500it.chm</source_chm>
+      <source_chm ID="Norwegian">\PRINTER\pt2500no.chm</source_chm>
+      <source_chm ID="Spanish">\PRINTER\pt2500esmx.chm</source_chm>
+      <source_chm ID="Swedish">\PRINTER\pt2500sv.chm</source_chm>
+      <source_chm ID="German">\PRINTER\pt2500de.chm</source_chm>
+      <source_chm ID="Turkish">\PRINTER\pt2500tr.chm</source_chm>
+      <source_chm ID="Portuguese">\PRINTER\pt2500pt.chm</source_chm>
+    </PRTCHMFILE>
+
+    <DLL_SETUP>
+      <source_dll ID="Simplified_Chinese">\SETUP\Simplified_Chinese\%Systembit%\setupzhcn.dll</source_dll>
+      <source_dll ID="Traditional_Chinese">\SETUP\Traditional_Chinese\%Systembit%\setupzhtw.dll</source_dll>
+      <source_dll ID="English"           >\SETUP\English\%Systembit%\setupenus.dll</source_dll>
+      <source_dll ID="Russian"           >\SETUP\Russian\%Systembit%\setupru.dll</source_dll>
+      <source_dll ID="Japanese"          >\SETUP\Japanese\%Systembit%\setupja.dll</source_dll>
+      <source_dll ID="Arabic"            >\SETUP\Arabic\%Systembit%\setupar.dll</source_dll>
+      <source_dll ID="French"            >\SETUP\French\%Systembit%\setupfr.dll</source_dll>
+      <source_dll ID="Italian"           >\SETUP\Italian\%Systembit%\setupit.dll</source_dll>
+      <source_dll ID="Norwegian"         >\SETUP\Norwegian\%Systembit%\setupno.dll</source_dll>
+      <source_dll ID="Spanish"           >\SETUP\Spanish\%Systembit%\setupesmx.dll</source_dll>
+      <source_dll ID="Swedish"           >\SETUP\Swedish\%Systembit%\setupsv.dll</source_dll>
+      <source_dll ID="German"           >\SETUP\German\%Systembit%\setupde.dll</source_dll>
+      <source_dll ID="Turkish"           >\SETUP\Turkish\%Systembit%\setuptr.dll</source_dll>
+      <source_dll ID="Portuguese"           >\SETUP\Portuguese\%Systembit%\setuppt.dll</source_dll>
+    </DLL_SETUP>
+
+    <DLL_UNSETUP>
+      <source_dll ID="Simplified_Chinese">\SETUP\Simplified_Chinese\%Systembit%\setupzhcn.dll</source_dll>
+      <source_dll ID="Traditional_Chinese">\SETUP\Traditional_Chinese\%Systembit%\setupzhtw.dll</source_dll>
+      <source_dll ID="English"           >\SETUP\English\%Systembit%\setupenus.dll</source_dll>
+      <source_dll ID="Russian"           >\SETUP\Russian\%Systembit%\setupru.dll</source_dll>
+      <source_dll ID="Japanese"          >\SETUP\Japanese\%Systembit%\setupja.dll</source_dll>
+      <source_dll ID="Arabic"            >\SETUP\Arabic\%Systembit%\setupar.dll</source_dll>
+      <source_dll ID="French"            >\SETUP\French\%Systembit%\setupfr.dll</source_dll>
+      <source_dll ID="Italian"           >\SETUP\Italian\%Systembit%\setupit.dll</source_dll>
+      <source_dll ID="Norwegian"         >\SETUP\Norwegian\%Systembit%\setupno.dll</source_dll>
+      <source_dll ID="Spanish"           >\SETUP\Spanish\%Systembit%\setupesmx.dll</source_dll>
+      <source_dll ID="Swedish"           >\SETUP\Swedish\%Systembit%\setupsv.dll</source_dll>
+      <source_dll ID="German"           >\SETUP\German\%Systembit%\setupde.dll</source_dll>
+      <source_dll ID="Turkish"           >\SETUP\Turkish\%Systembit%\setuptr.dll</source_dll>
+      <source_dll ID="Portuguese"           >\SETUP\Portuguese\%Systembit%\setuppt.dll</source_dll>
+  </DLL_UNSETUP>
+
+    <LICENCE>
+      <source_txt ID="Simplified_Chinese">\SETUP\Simplified_Chinese\licence.txt</source_txt>
+      <source_txt ID="Traditional_Chinese">\SETUP\Traditional_Chinese\licence.txt</source_txt>
+      <source_txt ID="English"           >\SETUP\English\licence.txt</source_txt>
+      <source_txt ID="Russian"           >\SETUP\Russian\licence.txt</source_txt>
+      <source_txt ID="Japanese"          >\SETUP\Japanese\licence.txt</source_txt>
+      <source_txt ID="Arabic"            >\SETUP\Arabic\licence.txt</source_txt>
+      <source_txt ID="French"            >\SETUP\French\licence.txt</source_txt>
+      <source_txt ID="Italian"           >\SETUP\Italian\licence.txt</source_txt>
+      <source_txt ID="Norwegian"         >\SETUP\Norwegian\licence.txt</source_txt>
+      <source_txt ID="Spanish"           >\SETUP\Spanish\licence.txt</source_txt>
+      <source_txt ID="Swedish"           >\SETUP\Swedish\licence.txt</source_txt>
+      <source_txt ID="German"           >\SETUP\German\licence.txt</source_txt>
+      <source_txt ID="Turkish"           >\SETUP\Turkish\licence.txt</source_txt>
+      <source_txt ID="Portuguese"           >\SETUP\Portuguese\licence.txt</source_txt>
+  </LICENCE>
+
+    <MANUAL>
+      <source_doc ID="Simplified_Chinese">\MANUAL\Simplified_Chinese\introduction.html</source_doc>
+      <source_doc ID="Traditional_Chinese">\MANUAL\Traditional_Chinese\introduction.html</source_doc>
+      <source_doc ID="English"           >\MANUAL\English\introduction.html</source_doc>
+      <source_doc ID="Russian"           >\MANUAL\Russian\introduction.html</source_doc>
+      <source_doc ID="Japanese"          >\MANUAL\Japanese\introduction.html</source_doc>
+      <source_doc ID="Arabic"            >\MANUAL\Arabic\introduction.html</source_doc>
+      <source_doc ID="French"            >\MANUAL\French\introduction.html</source_doc>
+      <source_doc ID="Italian"           >\MANUAL\Italian\introduction.html</source_doc>
+      <source_doc ID="Norwegian"         >\MANUAL\Norwegian\introduction.html</source_doc>
+      <source_doc ID="Spanish"           >\MANUAL\Spanish\introduction.html</source_doc>
+      <source_doc ID="Swedish"           >\MANUAL\Swedish\introduction.html</source_doc>
+      <source_doc ID="German"           >\MANUAL\German\introduction.html</source_doc>
+      <source_doc ID="Israel"           >\MANUAL\English\introduction.html</source_doc>
+      <source_doc ID="Turkish"           >\MANUAL\Turkish\introduction.html</source_doc>
+      <source_doc ID="Portuguese"           >\MANUAL\Portuguese\introduction.html</source_doc>
+  </MANUAL>
+
+    <SUFFIX>
+      <suffixName ID="Simplified_Chinese">zhcn</suffixName>
+      <suffixName ID="English"           >enus</suffixName>
+      <suffixName ID="Russian"           >ru</suffixName>
+      <suffixName ID="Japanese"          >ja</suffixName>
+      <suffixName ID="Arabic"            >ar</suffixName>
+      <suffixName ID="French"            >fr</suffixName>
+      <suffixName ID="Italian"           >it</suffixName>
+      <suffixName ID="Norwegian"         >no</suffixName>
+      <suffixName ID="Spanish"           >esmx</suffixName>
+      <suffixName ID="Swedish"           >sv</suffixName>
+      <suffixName ID="German"            >de</suffixName>
+      <suffixName ID="Turkish"           >tr</suffixName>
+      <suffixName ID="Traditional_Chinese">zhtw</suffixName>
+      <suffixName ID="Portuguese"        >pt</suffixName>
+    </SUFFIX>
+
+    <ICON>
+      <iconfile >\SETUP\uninstall.ico</iconfile>
+    </ICON>
+
+    <DLL_NORMAL>
+      <source_dll ID="DIFX">\SETUP\%Systembit%\DIFxAPI.dll</source_dll>
+      <!--<source_dll ID="Flash">\SETUP\%Systembit%\Flash.ocx</source_dll>-->
+      <source_dll ID="UI">pt2500ui.dll</source_dll>
+      <source_dll ID="DATA">pt2500ui.dll</source_dll>
+      <source_dll ID="DRV">pt2500dr.dll</source_dll>
+      <source_dll ID="LM">pt2500lm.dll</source_dll>
+      <source_dll ID="Tcp">pt2500tcpmon.dll</source_dll>
+      <!--<source_dll ID="Pro">ptm5300pro.dll</source_dll>-->
+      <!--<source_dll ID="FaxDR">ptFaxdr.dll</source_dll>
+      <source_dll ID="FaxUI">ptFaxui.dll</source_dll>-->
+    </DLL_NORMAL>
+
+    <PONEMENT>
+      <lmmonitor>Pantum P2500 Language Monitor</lmmonitor>
+      <tcpmonitor>Pantum TCP/IP Port Monitor</tcpmonitor>
+      <!--<processor>Pantum P3000 PCL Processor</processor>-->
+      <processor>WinPrint</processor>
+      <depfiles>pt2500dr.dll#pt2500ui.dll##</depfiles>
+      <!--<faxdepfile>ptFaxdr.dll#ptFaxui.dll##</faxdepfile>-->
+    </PONEMENT>
+
+    <COPYFILES>
+      <XPSTYLE>
+        <Common ID="1">\Windows\System32\</Common>
+        <Common ID="4">\Windows\System32\Pantum\pt2500\UnSetupData\</Common>
+        <x32 ID="2">\Windows\System32\spool\drivers\w32x86\</x32>
+        <x32 ID="3">\Windows\System32\spool\drivers\w32x86\3\</x32>
+        <x64 ID="2">\Windows\System32\spool\drivers\x64\</x64>
+        <x64 ID="3">\Windows\System32\spool\drivers\x64\3\</x64>
+      </XPSTYLE>
+      <W7STYLE>
+        <Common ID="1">\Windows\System32\</Common>
+        <Common ID="4">\Windows\System32\Pantum\pt2500\UnSetupData\</Common>
+        <x32 ID="2">\Windows\System32\spool\drivers\w32x86\</x32>
+        <x32 ID="3">\Windows\System32\spool\drivers\w32x86\3\</x32>
+        <x64 ID="2">\Windows\System32\spool\drivers\x64\</x64>
+        <x64 ID="3">\Windows\System32\spool\drivers\x64\3\</x64>
+      </W7STYLE>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500tcpmon.inf</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmar.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmenus.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmde.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmtr.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmesmx.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmfr.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmit.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmja.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmno.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmru.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmsv.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmzhcn.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmzhtw.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500pmpt.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500tcpmon.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\TCPMON\pt2500tcpui.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500sd.exe</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500sm.exe</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smgifrc.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2600smgifrc.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smar.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smenus.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smesmx.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smfr.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smde.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smtr.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smit.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smja.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smno.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smru.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smsv.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smzhcn.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smzhtw.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Application\pt2500smpt.dll</sourcefile>
+      <sourcefile ID="1">\PRINTER\%Systembit%\Driver\pt2500lm.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500ui.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500dr.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500lm.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500ar.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500enus.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500de.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500esmx.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500ja.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500no.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500ru.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500sv.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500zhcn.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500zhtw.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500ResBmp.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500fr.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500it.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500tr.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500pt.dll</sourcefile>
+      <sourcefile ID="2">\PRINTER\%Systembit%\Driver\pt2500DuplexDlg.exe</sourcefile>
+      <!--<sourcefile ID="2">\PRINTER\%Systembit%\ptm5300\ptm5300pro.dll</sourcefile>-->
+      <sourcefile ID="2">\PRINTER\pt2500zhcn.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500zhtw.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500enus.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500ru.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500ja.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500ar.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500fr.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500it.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500de.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500no.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500esmx.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500sv.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500tr.chm</sourcefile>
+      <sourcefile ID="2">\PRINTER\pt2500pt.chm</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500lm.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500DuplexDlg.exe</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500enus.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500zhtw.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500ResBmp.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500de.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500zhcn.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500no.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500ru.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500ar.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500fr.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500it.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500esmx.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500ja.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500sv.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500tr.dll</sourcefile>
+      <sourcefile ID="3">\PRINTER\%Systembit%\Driver\pt2500pt.dll</sourcefile>
+      <sourcefile ID="4">\SETUP\Bmprcx32.dll</sourcefile>
+      <sourcefile ID="4">\SETUP\Bmprcx64.dll</sourcefile>
+    </COPYFILES>
+
+    <Program>
+      <!--\program files\-->
+      <Dst>
+        <x32 ID="2">\Pantum\pt2500\SETUP\x32\</x32>
+        <x64 ID="2">\Pantum\pt2500\SETUP\x64\</x64>
+      </Dst>
+      <sourcefile ID="2">\SETUP\%Systembit%\DIFxAPI.dll</sourcefile>
+    </Program>
+
+    <FOLDER>
+      <sourcefolder2temp >\WifiTools\</sourcefolder2temp>
+      <sourcefolder2temp >\PRINTER\</sourcefolder2temp>
+    </FOLDER>
+
+    <STOPPROCESS>
+      <files ID="Wi-Fi" >WifiConfig.exe</files>
+      <files>pt2500sd.exe</files>
+      <files>pt2500sm.exe</files>
+    </STOPPROCESS>
+
+    <CreateFolder>
+      <Folder>
+        <Dir>\Pantum</Dir>
+        <Dir>\pt2500\</Dir>
+      </Folder>
+      <uisname>\UnSetupData\</uisname>
+      <iconname>\Pantum\pt2500\UnSetupData\uninstall.ico</iconname>
+      <uidat>\Pantum\pt2500\pt2500settings.dat</uidat>
+      <uisexe>\SETUP\%Systembit%\Uninstall.exe</uisexe>
+      <wifiexe>\WifiTools\WifiConfig.exe</wifiexe>
+      <!--<appexe>\PushScan\ptm6500app.exe</appexe>
+      <pushexe>\PushScan\ptm6500pushscan.exe</pushexe>
+      <pushmonitor>\Pantum\ptm6500\PushScan\ptm6500PushMonitor.exe</pushmonitor>
+      <monitorkey>PTM6500Monitor</monitorkey>
+      <apregdll>ptm6500ApReg.dll</apregdll>
+      <TwainMutex>Global\ptm6500_sign</TwainMutex>-->
+  </CreateFolder>
+    
+    <INF>
+      <Infinpackage ID="PRINTER">\PRINTER\P2500.inf</Infinpackage>
+      <Infinpackage ID="EWS">\PRINTER\PTEWS.inf</Infinpackage>
+    </INF>
+
+
+    <CAT>
+      <catfile >\PRINTER\pt250032.cat</catfile>
+      <catfile >\PRINTER\pt250064.cat</catfile>
+      <catfile >\PRINTER\ptusbews.cat</catfile>
+    </CAT>
+    
+  </SERTUP_INFO>
+

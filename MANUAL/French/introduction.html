@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>Pantum User Guide</title>
+<link rel="stylesheet" href="static/css/pantum.css" />
+<script src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/pantum.js"></script>
+</head>
+
+<script type="text/javascript">
+ var Sys = {};
+ var ua = navigator.userAgent.toLowerCase();
+ 
+ window.ActiveXObject ? Sys.ie = ua.match(/msie ([\d.]+)/)[1] :
+ ua.match(/firefox\/([\d.]+)/) ? Sys.firefox = ua.match(/firefox\/([\d.]+)/)[1] :
+ window.MessageEvent && !document.getBoxObjectFor ? Sys.chrome = ua.match(/chrome\/([\d.]+)/)[1] :
+ window.opera ? Sys.opera = ua.match(/opera.([\d.]+)/)[1] :
+ window.openDatabase ? Sys.safari = ua.match(/version\/([\d.]+)/)[1] : 0;
+ 
+ //Run test
+ if(Sys.firefox)
+	alert("This manual is optimized for IE 6.0, Safari 4.0 or later versions, and may not work well for other internet browsers.");
+ if(Sys.chrome)
+	alert("This manual is optimized for IE 6.0, Safari 4.0 or later versions, and may not work well for other internet browsers.");
+ if(Sys.opera)
+	alert("This manual is optimized for IE 6.0, Safari 4.0 or later versions, and may not work well for other internet browsers.");
+</script>
+
+
+<script type="text/javascript">
+document.write('<frameset rows="120,*" frameborder="yes">');
+document.write('<frame name="head" src="head.html" scrolling="no">');
+document.write('<frameset cols="20%,*" frameborder="yes" >');
+document.write('<frame name="toc" class="toc" src="toc.html" noresize >');
+document.write('<frame name="content" class="content" src="data/3210_FR_Cover.html" >');
+document.write('</frameset>');
+document.write('</frameset>');
+</script>
+<noscript><p>To display this page, Approval for script on local files are needed.</a></noscript> 
+
+</html>

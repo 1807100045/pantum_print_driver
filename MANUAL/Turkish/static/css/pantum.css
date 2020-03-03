@@ -1,0 +1,20 @@
+body,div,form,ul,li,ol,span,h1{margin:0px;padding:0px;}
+li{list-style-type:none;}
+a,img{border-width:0px;}
+body{height:100%;background-color:#fff;}
+table{height:100%;}
+frame{border-width:0px;}
+td{vertical-align:top;}
+.toc{width:100%;border-width:0px;border-right:1px solid #ccc;}
+/*.content{width:100%;}*/
+.toc,.content{height:550px;}
+.header{height:120px;background-color:#4d5258;position:relative;z-index:10;}
+.nav{position:absolute;right:20px;bottom:20px;}
+.nav li{float:left;padding-left:10px;}
+.logo{font-size:34px;font-weight:bold;color:#fff;padding:50px 0 0 20px;}
+
+.content-detail{padding:15px;}
+.content-detail h1{height:30px;background-color:#d8d8d8;font-size:24px;box-shadow: 3px 3px 4px #666;padding:5px 10px;margin-bottom:25px;}
+.content-detail h2{border-bottom:2px solid #d8d8d8;font-size:18px;line-height:25px;}
+.content-detail h3{font-size:14px;line-height:25px;}
+.content-detail p{font-size:12px;line-height:20px;}
